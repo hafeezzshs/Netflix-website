@@ -8,22 +8,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="header">
-      <img src="images/netlfix.png" alt="netflix logo" />
-      <div class="dropdown">
-        <select>
-          <option value="English" selected>English</option>
-          <option value="Hindi">Hindi</option>
-        </select>
-        <a href="#"><button class="login-btn">Sign In</button></a>
+    <div class="header-section">
+      <div class="header">
+        <img src="images/netlfix.png" alt="netflix logo" />
+        <div class="dropdown">
+          <select>
+            <option value="English" selected>English</option>
+            <option value="Hindi">Hindi</option>
+          </select>
+          <a href="#"><button class="login-btn">Sign In</button></a>
+        </div>
       </div>
-    </div>
-    <div style="text-align: center; margin: 4rem">
-      <h1>Unlimited movies, TV shows and more</h1>
-      <p>Watch anywhere. Cancel anytime.</p>
-      <div>
-        <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <input placeholder="Email address" type="text" />
+      <div class="header-content">
+        <h1>Unlimited movies, TV shows and more</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <div class="header-content-inner">
+          <p>Ready to watch? Enter your email to create or restart your membership.</p>
+          <div class="input-element">
+            <input placeholder="Email address" type="text" />
+            <button>
+              Get Started
+              <svg
+                width="20px"
+                height="28px"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
