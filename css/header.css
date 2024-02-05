@@ -4,26 +4,23 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
+  /* overflow-x: hidden; */
 }
 
 .header-section {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.8) 0,
-      rgba(0, 0, 0, 0) 60%,
-      rgba(0, 0, 0, 1) 100%
-    ),
-    url(images/bg-img.jpg);
+}
+
+.bgnd-img {
+  filter: brightness(30%);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  opacity: 100%;
+  z-index: -1;
 }
 
 .header {
@@ -53,7 +50,7 @@ body {
   font-size: 14px;
   font-weight: bold;
   padding: 6px 1rem;
-  border-color: #fff;
+  border-color: grey;
   border-radius: 6px;
   background: none;
   text-align: center;
@@ -128,4 +125,9 @@ body {
 
 .input-element button:hover {
   background: #e60000;
+}
+
+/* Responsive styling */
+
+@media (max-width: 375px) {
 }
