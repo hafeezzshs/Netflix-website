@@ -1,26 +1,20 @@
-html,
-body {
+* {
+  margin: 0;
+  padding: 0;
   font-family: "Outfit", sans-serif;
   font-family: "Poppins", sans-serif;
-  padding: 0;
-  margin: 0;
-  /* overflow-x: hidden; */
 }
 
 .header-section {
-  margin: 0;
-  padding: 0;
-}
-
-.bgnd-img {
-  filter: brightness(30%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
-  height: 100%;
-  z-index: -1;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/bg-img.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .header {
@@ -80,7 +74,7 @@ body {
 }
 
 .header-content h1 {
-  padding-top: 6rem;
+  padding-top: 8rem;
   font-size: 44px;
   font-weight: 800;
 }
@@ -88,12 +82,14 @@ body {
 .header-content p {
   font-size: 22px;
   font-weight: 600;
+  padding-top: 20px;
 }
 
 .header-content-inner p {
   text-align: center;
   font-size: 20px;
   font-weight: 300;
+  padding-bottom: 20px;
 }
 
 .input-element {
@@ -125,9 +121,4 @@ body {
 
 .input-element button:hover {
   background: #e60000;
-}
-
-/* Responsive styling */
-
-@media (max-width: 375px) {
 }
