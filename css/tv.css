@@ -1,0 +1,48 @@
+.tv-section {
+  background: #000;
+}
+
+.border-line {
+  border: 4px rgb(54, 52, 52) solid;
+}
+
+.tv-content {
+  display: flex;
+  margin-left: 9.5rem;
+  margin-right: 9.5rem;
+  height: 78vh;
+}
+
+.tv-matter {
+  padding-top: 10rem;
+  color: #fff;
+}
+
+.tv-matter h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.tv-matter p {
+  font-size: 24px;
+  padding-top: 1rem;
+}
+
+.tv {
+  padding-top: 4rem;
+}
+
+.tv img {
+  width: 500px;
+  padding-top: 50;
+}
+
+.tv-video {
+  overflow: hidden;
+  max-width: 24rem;
+  max-height: 35%;
+  transform: translate(75%, 100%);
+  position: absolute;
+  top: 99%;
+  right: 40%;
+}
