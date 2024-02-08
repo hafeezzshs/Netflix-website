@@ -1,0 +1,74 @@
+.download-section {
+  background: #000;
+}
+
+.download-content {
+  padding: 4rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.mobile-img {
+  width: 450px;
+  padding-left: 9.5rem;
+}
+
+.download-option {
+  background: #000;
+  width: 230px;
+  position: absolute;
+  top: 236%;
+  left: 20%;
+  box-shadow: 0 0 6em 0 rgb(0, 0, 0);
+  border: 2px grey solid;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.stranger-things {
+  height: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.book-text {
+  text-align: start;
+  padding: 1.9rem 0;
+}
+
+.text-1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.text-2 {
+  font-size: 14px;
+  color: blue;
+}
+
+.dwn-gif {
+  width: 3rem;
+  height: 3rem;
+  padding-top: 1.5rem;
+}
+
+.download-option-content {
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.download-option-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -3px;
+}
+
+.download-option-content p {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 1rem;
+  line-height: 2rem;
+}
