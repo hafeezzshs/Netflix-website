@@ -1,0 +1,32 @@
+.kids-section {
+  background: #000;
+}
+
+.kids-content {
+  padding: 5rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.kids-img {
+  width: 455px;
+  padding-left: 9.5rem;
+}
+
+.kids-text {
+  padding: 2rem 0;
+  color: #fff;
+}
+
+.kids-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -3px;
+}
+
+.kids-text p {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 1rem;
+  line-height: 2rem;
+}
