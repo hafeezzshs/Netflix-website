@@ -1,0 +1,38 @@
+.watch-section {
+  background: #000;
+}
+
+.watch-content {
+  margin: 0 9.5rem;
+  padding: 4rem 0;
+  display: flex;
+}
+
+.watch-matter {
+  padding-top: 7rem;
+  color: #fff;
+}
+
+.watch-matter h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.watch-matter p {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 1rem;
+  line-height: 2rem;
+}
+
+.watch-video {
+  width: 310px;
+  position: absolute;
+  left: 55%;
+  top: 283%;
+}
+
+.watch-img {
+  width: 490px;
+  position: relative;
+}
