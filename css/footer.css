@@ -1,0 +1,53 @@
+.footer-section {
+  background: #000;
+}
+
+.footer-content {
+  margin: 0 9.5rem;
+  padding: 4rem 0;
+}
+
+.footer-content p {
+  color: rgb(177, 174, 174);
+  padding-bottom: 1.5rem;
+}
+
+.footer-content p a {
+  color: rgb(177, 174, 174);
+}
+
+.footer-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.footer-items a {
+  color: rgb(177, 174, 174);
+}
+
+.dropdown-footer {
+  margin: 0;
+  padding-top: 1.5rem;
+  padding-right: 180px;
+  display: flex;
+  gap: 20px;
+}
+
+.dropdown-footer select {
+  width: 120px;
+  height: 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 1rem;
+  border-color: grey;
+  border-radius: 6px;
+  background: none;
+  text-align: center;
+}
+
+.tag-name {
+  font-size: 14px;
+  padding-top: 1.5rem;
+}
