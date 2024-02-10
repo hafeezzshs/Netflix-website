@@ -1,0 +1,37 @@
+.faq-section {
+  background: #000;
+}
+
+.faq-list {
+  margin: 0 9.5rem;
+  padding: 4rem 0;
+}
+
+.faq-list h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -3px;
+  padding-bottom: 1rem;
+}
+
+.faq-content {
+  background: #333333;
+  font-size: 26px;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 10px solid black;
+}
+
+.faq-content:hover {
+  background: #4d4d4d;
+}
+
+.header-content-inner p {
+  color: #fff;
+  padding-top: 2rem;
+}
